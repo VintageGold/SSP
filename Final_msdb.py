@@ -1,11 +1,14 @@
 import os
-import pytest
+import time
 header = ["artist-","trackid-","song"+"\n"]
 subdirectory = []
-path = "/Users/adamgoldstein/Desktop/GTown/Adam_SSP/FLAC/"
-with open("file.txt","w+") as source:
-	for field in header:
-		source.write(field)
+path = "/volumes/Multimedia/FLAC/"
+#path = "/Users/adamgoldstein/Desktop/GTown/Adam_SSP/FLAC/"
+
+start = time.time()
+with open("Final.txt","w+") as source:
+#	for field in header:
+#		source.write(field)
 	for root, dirs, files in os.walk(path):
 		try:
 			for file in files:
@@ -14,6 +17,14 @@ with open("file.txt","w+") as source:
 					source.write(a+'\n')
 		except:
 			continue
+	end = time.time()
+
+	duration = str((end - start))
+
+	source.write('Duration: '+duration)
+
+
+
 
  
 
