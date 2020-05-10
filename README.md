@@ -1,7 +1,7 @@
 # A Short Story You Can Hear!
 
 Project Topic
-Create a thirty-minute generative playlist that collaborates with a Spotify user’s liked tracks to create a lyric driven short story playlist (SSP) where songs glide to each other through a structured narrative.
+Create a 20 track generative playlist that collaborates with a Spotify user’s liked tracks to create a lyric driven short story playlist (SSP) where songs glide to each other through a structured narrative.
 
 Members
 Adam Goldstein (Project Coordinator) - amg413@georgetown.edu
