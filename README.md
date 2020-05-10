@@ -16,6 +16,5 @@ Currently Spotify offers a plethora of playlists ranging from types of moods, an
 Data Sources
 Music Database - Train model to find features of “importance” to learn in order to generate SSPs.
 Spotify API - Use liked tracks to make SSPs based on trained model from Music Database.
-Genius API/Genius Website - Retrieve lyrics for tracks to train and for Spotify liked tracks.
-Project Description
-Use the user interface flow and data flow diagrams below to guide through what our project will entail.
+Kaggle Data File - Train model on lyrics
+
