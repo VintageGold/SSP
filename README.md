@@ -1,3 +1,6 @@
+This repo has been retired.  Please go to this link to see the presented final project: https://github.com/georgetown-analytics/Spotify
+
+
 # A Short Story You Can Hear!
 
 Project Topic
